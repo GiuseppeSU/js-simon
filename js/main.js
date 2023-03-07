@@ -6,6 +6,11 @@ button.addEventListener( 'click' , function(){
        
        result.innerHTML += ' ' + numeroRandomico;
     }
+    setTimeout(function() {
+        result.innerHTML = '';
+
+    
+    },30000)
     
 })
 
@@ -16,6 +21,8 @@ function generateRandomNumber(min, max) {
     console.log(number);
     return number;
 }
+
+
 
 
   
